@@ -9,15 +9,14 @@ class Database {
 
 	async connect() {
 		this.client = new Client({
-			user: "postgres",
-			database: "deno_example_db",
-			hostname: "localhost",
-			password: "myPassword",
-			port: 5432,
+			user: Deno.env.get("DB_USER_NAME"),
+			database: Deno.env.get("DB_NAME"),
+			hostname: Deno.env.get("DB_HOST"),
+			password: Deno.env.get("DB_USER_PASSWORD"),
+			port: Number(Deno.env.get("DB_PORT")),
 		});
 		
-			await this.client.connect();
-	
+		await this.client.connect();
 	}
 }
 

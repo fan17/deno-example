@@ -8,3 +8,7 @@
 [] data validation, zod?
 [] CRUD
 [] auth, middlewear, getUser
+[] profiler
+[] debuger
+[] deploy
+[] code formatter
