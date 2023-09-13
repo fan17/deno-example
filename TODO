@@ -1,14 +1,15 @@
 [x] setup sample controller
-[x] setup postgres, connect
-[x] sample route
+[x] setup postgres, connect 
+[x] sample route 
 [] DI
-[x] env
-[] get rid of routes, use decorators, https://deno.land/x/oak_decorators@v0.0.7
-[] ORM, models, migrations OR if not how to handle it
-[] data validation, zod?
-[] CRUD
+[x] env 
+[] get rid of routes, use decorators, https://deno.land/x/oak_decorators@v0.0.7 
+[] ORM, models, migrations OR if not how to handle it 
+[] data validation, zod? 
+[] CRUD 
 [] auth, middlewear, getUser
-[] profiler
-[] debuger
-[x] deploy
-[] code formatter
+[] profiler 
+[] debuger 
+[x] deploy 
+[] code formatter 
+[x] dependencies in a single file
