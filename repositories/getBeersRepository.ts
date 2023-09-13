@@ -1,5 +1,5 @@
-import { DbClient } from "../deps.ts";
-import client from "../config/database.ts";
+import { DbClient } from "root/deps.ts";
+import client from "root/config/database.ts";
 
 class BeerRepo {
   selectAll() {

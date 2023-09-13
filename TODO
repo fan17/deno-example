@@ -11,5 +11,5 @@
 [] profiler 
 [] debuger 
 [x] deploy 
-[] code formatter 
+[x] code formatter
 [x] dependencies in a single file

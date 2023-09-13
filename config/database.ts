@@ -1,4 +1,4 @@
-import { DbClient } from "../deps.ts";
+import { DbClient } from "root/deps.ts";
 
 class Database {
   public client?: DbClient;
